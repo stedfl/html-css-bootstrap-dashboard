@@ -15,11 +15,24 @@ header {
   background-color: red;
 }
 
+.top_menu {
+  height: calc(100% - 70px);
+  overflow: hidden;
+}
+
+.bottom_menu {
+  height: 70px;
+}
+
+
+
 main {
   width: calc(100% - 155px);
   height: 100%;
   overflow: auto;
   background-color: yellow;
 }
+
+
 
 
