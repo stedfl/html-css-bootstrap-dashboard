@@ -6,23 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-  <title>Dashboard</title>
+  <title>Dashboard Boolean</title>
 </head>
 <body>
   <header class="bg-light">
       <div class="container-fluid h-100">
-        <div class="row h-100 nav_bar align-items-center">
-          <div class="col col-1 logo">
-            <div class="logo_small d-md-none">logo piccolo</div>
-            <div class="logo_large d-none d-md-block">logo grande</div>
+        <div class="row p-2 h-100 nav_bar align-items-center">
+          <div class="col col-2 col-xl-1 logo">
+            <div class="logo_small d-md-none">
+              <a href="#">
+                <img class="h-100"src="img/mobile-logo.png" alt="logo boolean">
+              </a>
+            </div>
+            <div class="logo_large d-none d-md-block">
+              <a href="">
+                <img src="img/logo.svg" alt="logo boolean">
+              </a>
+            </div>
           </div>
-          <form class="col col-10 d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+          <form class="col col-9 col-xl-10 d-flex" role="search">
+            <span class="input-group-text icon_search" id="basic-addon1">
+              <i class="fa fa-search"></i>
+            </span>
+            <input class="form-control custome_form" type="search" placeholder="Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza?'" aria-label="Search">
           </form>
-          <div class="col col-1 icon_nav">icone</div>
+          <div class="d-flex justify-content-between align-items-center col col-1 col-xl-1 icon_nav ps-0">
+            <a href="#">
+              <i class="fa-solid fa-list d-none d-md-block"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-circle-question d-none d-md-block"></i>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-ellipsis-vertical d-none d-md-block"></i>
+            </a>
+            <a class="icon_bell" href="#">
+              <i class="fa-solid fa-bell icon-bell"></i>
+            </a>
+          </div>
         </div>
       </div>
   </header>

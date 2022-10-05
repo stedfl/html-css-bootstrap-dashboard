@@ -1,6 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 header {
   width: 100%;
   height: 75px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main_container {
@@ -12,6 +24,7 @@ header {
   width: 155px;
   height: 100%;
   background-color: #092339;
+  font-family: 'Poppins', sans-serif;
 }
 
 .top_menu {
@@ -28,6 +41,30 @@ main {
   height: 100%;
   overflow: auto;
   background-color: yellow;
+}
+
+/* HEADER */
+.custome_form {
+  background-color: #e5e5e5;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  padding-left: 0;
+}
+
+.icon_search {
+  background-color: #e5e5e5;
+  border-right: 0;
+}
+
+.icon_nav a {
+  color:#5b5858;
+  margin: 0 2px;
+  
+}
+
+.icon-bell {
+  color: #fd7e14;
 }
 
 
