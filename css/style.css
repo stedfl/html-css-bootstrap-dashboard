@@ -32,7 +32,6 @@ main {
   width: calc(100% - 155px);
   height: 100%;
   overflow: auto;
-  background-color: yellow;
 }
 
 /* HEADER */
@@ -40,24 +39,28 @@ main {
   height: 50px;
 }
 
-.custome_form {
-  background-color: #e5e5e5;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-left: 0;
-  padding-left: 0;
+.search{
+  position: relative;
+  width: 100%  
 }
 
-.icon_search {
+.search input{
+  text-indent: 25px;
+  border: 1px solid #d6d4d4;
   background-color: #e5e5e5;
-  border-right: 0;
+}
+
+.search .fa-search{
+  position: absolute;
+  top: 11px;
+  left: 11px;
 }
 
 .icon_nav a {
   color:#5b5858;
   margin: 0 2px;
-  
 }
+
 .icon-bell {
   color: #fd7e14;
 }
@@ -88,6 +91,7 @@ main .top_row {
 .sd-badge {
   background-color: #155cba;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .sd-row {
@@ -107,7 +111,7 @@ main .top_row {
 }
 
 /* TABLE */
-.table_column {
+.inner_container {
   border: 1px solid #e5e5e5;
   margin-bottom: 1.5rem;
   background-color: white;
@@ -128,7 +132,16 @@ main .top_row {
 .sd-acco-item {
   border-left: 0;
   border-right:0;
+  border-radius:0;
 }
+
+.sd-acco-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
 
 
 

@@ -34,12 +34,12 @@
             </div>
           </div>
 
-          <form class="col col-9 col-xl-10 d-flex" role="search">
-            <span class="input-group-text icon_search" id="basic-addon1">
+          <div class="col col-9 col-xl-10 d-flex search_col">
+            <div class="search">
               <i class="fa fa-search"></i>
-            </span>
-            <input class="form-control custome_form" type="search" placeholder="Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza?'" aria-label="Search">
-          </form>
+              <input type="text" class="form-control" placeholder="'Quanti ragazzi di classe 75 mangiano la pizza?'">
+            </div>
+          </div>
           <div class="d-flex justify-content-between align-items-center col col-1 col-xl-1 icon_nav ps-0">
             <a href="#">
               <i class="fa-solid fa-list d-none d-md-block"></i>
@@ -115,174 +115,209 @@
         <div class="row p-2 bg-light">
           <div class="col-12 col-md-8 left-column">
             <div class="row table_column">
-              <div class="title_row">
-                <h2>
-                  Prossime classi
-                </h2>
+              <div class="inner_container">
+                <div class="title_row">
+                  <h2>
+                    Prossime classi
+                  </h2>
+                </div>
+                <div class="row ps-4 pe-0 py-3">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Nome</th>
+                        <th class="d-none d-lg-block" scope="col">Data Inizio</th>
+                        <th scope="col">roi</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Classe 75</td>
+                        <td class="d-none d-lg-inline-block">15 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-success">Done</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 76</td>
+                        <td class="d-none d-lg-block">16 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-success">Done</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 77</td>
+                        <td class="d-none d-lg-block">17 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-warning">process</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 78</td>
+                        <td class="d-none d-lg-block">18 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-success">Done</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 79</td>
+                        <td class="d-none d-lg-block">19 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-danger">failed</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 80</td>
+                        <td class="d-none d-lg-block">20 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-success">Done</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 81</td>
+                        <td class="d-none d-lg-block">21 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-danger">failed</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 82</td>
+                        <td class="d-none d-lg-block">22 Febbraio 2021</td>
+                        <td>20%</td>
+                        <td>
+                          <span class="badge bg-success">Done</span>
+                        </td>
+                        <td>
+                          <button><i class="fa-solid fa-pencil"></i></button>
+                          <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
               </div>
-              <div class="row ps-4 pe-0 py-3">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">Nome</th>
-                      <th class="d-none d-lg-block" scope="col">Data Inizio</th>
-                      <th scope="col">roi</th>
-                      <th scope="col">Stato</th>
-                      <th scope="col">Azioni</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Classe 75</td>
-                      <td class="d-none d-lg-inline-block">15 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-success">Done</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 76</td>
-                      <td class="d-none d-lg-block">16 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-success">Done</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 77</td>
-                      <td class="d-none d-lg-block">17 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-warning">process</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 78</td>
-                      <td class="d-none d-lg-block">18 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-success">Done</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 79</td>
-                      <td class="d-none d-lg-block">19 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-danger">failed</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 80</td>
-                      <td class="d-none d-lg-block">20 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-success">Done</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 81</td>
-                      <td class="d-none d-lg-block">21 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-danger">failed</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Classe 82</td>
-                      <td class="d-none d-lg-block">22 Febbraio 2021</td>
-                      <td>20%</td>
-                      <td>
-                        <span class="badge bg-success">Done</span>
-                      </td>
-                      <td>
-                        <button><i class="fa-solid fa-pencil"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-             
               
             </div>
 
             <div class="row table_column">
-              <div class="title_row">
-                <h2 class="text-uppercase">
-                  f.a.q.
-                </h2>
+              <div class="inner_container">
+                <div class="title_row">
+                  <h2 class="text-uppercase">
+                    f.a.q.
+                  </h2>
+                </div>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item sd-acco-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Come si sviluppa un sistema di chat in real time?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body sd-acco-body">
+                        Con molta pazienza
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item sd-acco-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Posso usare position:absolute per allineare le colonne?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body sd-acco-body">
+                        Si però poi dovrai vedertela con Stefano.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item sd-acco-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                       Il mio sito è responsive?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body sd-acco-body">
+                        Molte cose sono semplici punti di vista, il responsive non lo è.
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item sd-acco-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Come si sviluppa un sistema di chat in real time?
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body sd-acco-body">
-                      Con molta pazienza
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item sd-acco-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Posso usare position:absolute per allineare le colonne?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body sd-acco-body">
-                      Si però poi dovrai vedertela con Stefano.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item sd-acco-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     Il mio sito è responsive?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body sd-acco-body">
-                      Molte cose sono semplici punti di vista, il responsive non lo è.
-                    </div>
-                  </div>
-                </div>
-              </div>
+            
             </div>
           </div>
           
-          <div class="col-12 col-md-4">todo</div>
+          <div class="col-12 col-md-4">
+            <div class="row table_column">
+              <div class="title_row">
+                <h2 class="text-uppercase">
+                  Todo
+                </h2>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Avvisare gli alunni
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Lezione su Bootstrap5
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Conquistare il mondo con Laravel
+                </label>
+              </div>
+              
+              
+            </div>
+
+
+          </div>
         </div>
       </div>
       
