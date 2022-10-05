@@ -124,6 +124,11 @@ main .top_row {
   padding-bottom: 0.5rem;
 }
 
+.btn_canvas {
+  border: 1px solid #0d6dfb;
+  
+}
+
 .code-icon {
   background-color: #f26551;
   color: white;
