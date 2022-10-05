@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .side_bar {
+    width: 55px;
+  }
+
+  main {
+    width: calc(100% - 55px)
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .side_bar {
+    width: 35px;
+  }
+
+  main {
+    width: calc(100% - 35px)
+  }
+}
