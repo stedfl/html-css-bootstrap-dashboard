@@ -28,8 +28,6 @@ a {
   font-size: 0.9rem;
 }
 
-
-
 main {
   width: calc(100% - 155px);
   height: 100%;
@@ -38,6 +36,10 @@ main {
 }
 
 /* HEADER */
+.logo img {
+  height: 50px;
+}
+
 .custome_form {
   background-color: #e5e5e5;
   border-top-left-radius: 0;
@@ -79,6 +81,30 @@ main {
   height: 70px;
 }
 
+main .top-row {
+  color: white;
+}
+
+.sd-badge {
+  background-color: #155cba;
+  font-size: 0.9rem;
+}
+
+.sd-row {
+  margin-top: 5px;
+}
+
+.icon-quote {
+  font-size: 0.9rem;
+}
+
+.sd-btn {
+  font-size: 0.7rem;
+  background-color: #155cba;
+  color: white;
+  border-radius: 100%;
+  padding: 2px 6px;
+}
 
 
 
