@@ -64,20 +64,20 @@
           <li class="mb-3">
             <a class="d-flex justify-content-center align-items-center" href="#">
               <i class="fa-solid fa-house"></i>
-              <span class="home_text d-none d-lg-block">Home</span>
+              <span class="home_text d-none d-md-block">Home</span>
             </a>
           </li>
           <li class="mb-3">
             <a class="d-flex justify-content-center align-items-center" href="#">
             <a class="d-flex justify-content-center align-items-center" href="#">
               <i class="fa-solid fa-chart-simple"></i>
-              <span class="stats_text d-none d-lg-block">Stats</span>
+              <span class="stats_text d-none d-md-block">Stats</span>
             </a>
           </li>
           <li class="mb-3">
             <a class="d-flex justify-content-center align-items-center" href="#">
               <i class="fa-solid fa-signal"></i>
-              <span class="signal_text d-none d-lg-block">Signals</span>
+              <span class="signal_text d-none d-md-block">Signals</span>
             </a>
           </li>
         </ul>
@@ -85,7 +85,7 @@
       <div class="bottom_menu d-flex justify-content-center  align-items-center">
         <a class="d-flex justify-content-center align-items-center" href="#">
           <i class="fa-solid fa-gear"></i>
-          <span class="signal_text d-none d-lg-block">Admin</span>
+          <span class="signal_text d-none d-md-block">Admin</span>
         </a>
       </div>
     </div>
@@ -111,20 +111,21 @@
             <p class="h2">12</p>
           </div>    
         </div>
+
         <div class="row p-2 bg-light">
-          <div class="col-12 col-md-8 table_column">
-            <div class="row">
+          <div class="col-12 col-md-8 left-column">
+            <div class="row table_column">
               <div class="title_row">
                 <h2>
                   Prossime classi
                 </h2>
               </div>
-              <div class="row">
+              <div class="row ps-4 pe-0 py-3">
                 <table class="table">
                   <thead>
                     <tr>
                       <th scope="col">Nome</th>
-                      <th scope="col">Data Inizio</th>
+                      <th class="d-none d-lg-block" scope="col">Data Inizio</th>
                       <th scope="col">roi</th>
                       <th scope="col">Stato</th>
                       <th scope="col">Azioni</th>
@@ -133,7 +134,7 @@
                   <tbody>
                     <tr>
                       <td>Classe 75</td>
-                      <td>15 Febbraio 2021</td>
+                      <td class="d-none d-lg-inline-block">15 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-success">Done</span>
@@ -145,7 +146,7 @@
                     </tr>
                     <tr>
                       <td>Classe 76</td>
-                      <td>16 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">16 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-success">Done</span>
@@ -157,7 +158,7 @@
                     </tr>
                     <tr>
                       <td>Classe 77</td>
-                      <td>17 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">17 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-warning">process</span>
@@ -169,7 +170,7 @@
                     </tr>
                     <tr>
                       <td>Classe 78</td>
-                      <td>18 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">18 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-success">Done</span>
@@ -181,7 +182,7 @@
                     </tr>
                     <tr>
                       <td>Classe 79</td>
-                      <td>19 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">19 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-danger">failed</span>
@@ -193,7 +194,7 @@
                     </tr>
                     <tr>
                       <td>Classe 80</td>
-                      <td>20 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">20 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-success">Done</span>
@@ -205,7 +206,7 @@
                     </tr>
                     <tr>
                       <td>Classe 81</td>
-                      <td>21 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">21 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-danger">failed</span>
@@ -217,7 +218,7 @@
                     </tr>
                     <tr>
                       <td>Classe 82</td>
-                      <td>22 Febbraio 2021</td>
+                      <td class="d-none d-lg-block">22 Febbraio 2021</td>
                       <td>20%</td>
                       <td>
                         <span class="badge bg-success">Done</span>
@@ -230,9 +231,57 @@
                   </tbody>
                 </table>
               </div>
+             
               
             </div>
+
+            <div class="row table_column">
+              <div class="title_row">
+                <h2 class="text-uppercase">
+                  f.a.q.
+                </h2>
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item sd-acco-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Come si sviluppa un sistema di chat in real time?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body sd-acco-body">
+                      Con molta pazienza
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item sd-acco-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Posso usare position:absolute per allineare le colonne?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body sd-acco-body">
+                      Si però poi dovrai vedertela con Stefano.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item sd-acco-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     Il mio sito è responsive?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body sd-acco-body">
+                      Molte cose sono semplici punti di vista, il responsive non lo è.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          
           <div class="col-12 col-md-4">todo</div>
         </div>
       </div>

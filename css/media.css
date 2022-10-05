@@ -1,19 +1,10 @@
 @media screen and (max-width: 768px) {
   .side_bar {
-    width: 55px;
+    width: 40px;
   }
 
   main {
-    width: calc(100% - 55px)
+    width: calc(100% - 40px)
   }
 }
 
-@media screen and (max-width: 576px) {
-  .side_bar {
-    width: 35px;
-  }
-
-  main {
-    width: calc(100% - 35px)
-  }
-}
