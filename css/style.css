@@ -25,16 +25,10 @@ a {
   height: 100%;
   background-color: #092339;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
 }
 
-.top_menu {
-  height: calc(100% - 70px);
-  overflow: hidden;
-}
 
-.bottom_menu {
-  height: 70px;
-}
 
 main {
   width: calc(100% - 155px);
@@ -62,10 +56,30 @@ main {
   margin: 0 2px;
   
 }
-
 .icon-bell {
   color: #fd7e14;
 }
+
+/* SIDEBAR */
+.side_bar a {
+  color: white;
+}
+
+.side_bar i {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.top_menu {
+  height: calc(100% - 70px);
+  overflow: hidden;
+}
+
+.bottom_menu {
+  height: 70px;
+}
+
+
 
 
 
