@@ -81,7 +81,7 @@ main {
   height: 70px;
 }
 
-main .top-row {
+main .top_row {
   color: white;
 }
 
@@ -104,6 +104,15 @@ main .top-row {
   color: white;
   border-radius: 100%;
   padding: 2px 6px;
+}
+
+/* TABLE */
+.table_column {
+  border: 1px solid #e5e5e5;
+}
+
+.title_row {
+  background-color: #f7f7f7;
 }
 
 
