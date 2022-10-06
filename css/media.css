@@ -20,6 +20,10 @@
   .side_bar i {
     margin-right: 8px;
   }
+
+  .sd-offcanvas {
+    width: 70% !important; 
+  }
 }
 
 @media screen and (min-width: 992px) {
