@@ -189,14 +189,16 @@ td, th {
 .sd-acco-item {
   border-left: 0;
   border-right:0;
-  border-radius:0;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.sd-acco-item:first-of-type .accordion-button {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.sd-acco-item:first-of-type {
+  border-top: 0;
+}
+
+.sd-acco-item:last-of-type {
+  border-bottom:0;
 }
 
 /* CHECKLIST-SECTION */
