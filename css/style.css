@@ -58,6 +58,7 @@ header {
   background-color: #092339;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
+  background-image: url('img/sidebar-bg.png');
 }
 
 .side_bar a {
@@ -104,7 +105,7 @@ main .top_row {
 }
 
 .sd-badge:hover {
-  background-color: #142a40;
+  background-color:#2b5690;
 }
 
 .sd-row {
@@ -124,7 +125,7 @@ main .top_row {
 }
 
 .sd-btn:hover {
-  background-color: #142a40;
+  background-color: #2b5690;
 }
 
 /* TABLE-SECTION */
@@ -175,11 +176,6 @@ tr td:not(tr td:first-child),
 tr th:not(tr th:first-child) {
   text-align: center;
 }
-
-/* tr td:first-child,
-tr th:first-child {
-  padding-left: 1rem;
-} */
 
 td, th {
   font-size: 0.9rem;
