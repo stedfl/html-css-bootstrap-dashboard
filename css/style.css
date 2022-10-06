@@ -21,7 +21,7 @@ a {
 }
 
 .side_bar {
-  width: 155px;
+  width: 40px;
   height: 100%;
   background-color: #092339;
   font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@ a {
 }
 
 main {
-  width: calc(100% - 155px);
+  width: calc(100% - 40px);
   height: 100%;
   overflow: auto;
 }
@@ -126,7 +126,6 @@ main .top_row {
 
 .btn_canvas {
   border: 1px solid #0d6dfb;
-  
 }
 
 .code-icon {

@@ -1,10 +1,10 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .side_bar {
-    width: 40px;
+    width: 155px
   }
 
   main {
-    width: calc(100% - 40px)
+    width: calc(100% - 155px);
   }
 }
 
