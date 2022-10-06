@@ -114,6 +114,7 @@ main .top_row {
 .inner_container {
   width: 100%;
   border: 1px solid lightgray;
+  border-radius: 5px;
   margin-bottom: 1.5rem;
   background-color: white;
 }
@@ -154,9 +155,6 @@ tr th:first-child {
   padding-left: 1rem;
 }
 
-
-
-
 /* FAQ */
 .sd-acco-body {
   font-size: 0.8rem;
@@ -173,8 +171,34 @@ tr th:first-child {
   border-top-right-radius: 0;
 }
 
+/* CHECKLIST */
+
+.sd-form-check {
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid lightgray;
+  border-left:1px solid lightgray;
+  border-right:1px solid lightgray;
+}
+
+.check_list_container > :last-child {
+  border-bottom: 1px solid lightgray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.check_list_container > :first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
 
+
+.sd-form-check .form-check-input {
+  margin-left: 0;
+  margin-right: 10px;
+}
 
 
 
