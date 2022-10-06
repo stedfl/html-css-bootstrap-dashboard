@@ -6,8 +6,6 @@ img {
   max-width: 100%;
 }
 
-
-
 a {
   text-decoration: none;
 }
@@ -16,10 +14,6 @@ a {
   width: 100%;
   height: calc(100vh - 70px);
 }
-
-
-
-
 
 /* HEADER */
 header {
@@ -59,7 +53,7 @@ header {
 
 /* SIDEBAR */
 .side_bar {
-  width: 40px;
+  width: 10%;
   height: 100%;
   background-color: #092339;
   font-family: 'Poppins', sans-serif;
@@ -71,7 +65,6 @@ header {
 }
 
 .side_bar i {
-  margin-right: 8px;
   font-size: 1.2rem;
 }
 
@@ -84,9 +77,17 @@ header {
   height: 70px;
 }
 
+.side_bar a {
+  width: 70%;
+}
+
+.side_bar a:hover {
+  background-color:rgba(255, 255, 255, 0.5) ;
+}
+
 /* MAIN */
 main {
-  width: calc(100% - 40px);
+  width: 90%;
   height: 100%;
   overflow: auto;
 }
@@ -100,6 +101,10 @@ main .top_row {
   background-color: #155cba;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+.sd-badge:hover {
+  background-color: #142a40;
 }
 
 .sd-row {
@@ -116,6 +121,10 @@ main .top_row {
   color: white;
   border-radius: 100%;
   padding: 2px 6px;
+}
+
+.sd-btn:hover {
+  background-color: #142a40;
 }
 
 /* TABLE-SECTION */
@@ -137,6 +146,10 @@ main .top_row {
   border: 1px solid #0d6dfb;
 }
 
+.btn_canvas:hover {
+  border: 1px solid #0d6dfb;
+}
+
 .code-icon {
   background-color: #f26551;
   color: white;
@@ -151,6 +164,11 @@ td button {
   color: #6c757d ;
   border-radius: 3px;
   padding: 2px 6px;
+}
+
+td button:hover {
+  background-color:#6c757d;
+  color: white;
 }
 
 tr td:not(tr td:first-child),

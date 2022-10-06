@@ -1,11 +1,26 @@
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 768px) {
+  .side_bar {
+    width: 10%
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .side_bar {
     width: 155px
   }
 
   main {
     width: calc(100% - 155px);
+  } 
+
+  .side_bar i {
+    margin-right: 8px;
   }
+  
 }
 
 @media screen and (min-width: 992px) {
