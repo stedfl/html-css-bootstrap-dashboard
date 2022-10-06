@@ -143,14 +143,6 @@ main .top_row {
   padding: 0.5rem 1rem;
 }
 
-.btn_canvas {
-  border: 1px solid #0d6dfb;
-}
-
-.btn_canvas:hover {
-  border: 1px solid #0d6dfb;
-}
-
 .code-icon {
   background-color: #f26551;
   color: white;
