@@ -176,9 +176,13 @@ tr th:not(tr th:first-child) {
   text-align: center;
 }
 
-tr td:first-child,
+/* tr td:first-child,
 tr th:first-child {
   padding-left: 1rem;
+} */
+
+td, th {
+  font-size: 0.9rem;
 }
 
 /* FAQ-SECTION */
@@ -190,6 +194,8 @@ tr th:first-child {
   border-left: 0;
   border-right:0;
   border-radius:0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .sd-acco-item:first-of-type .accordion-button {
